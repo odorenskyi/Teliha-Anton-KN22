@@ -9,7 +9,7 @@ void software (int num)
     system("chcp 1251");
     system("cls");
     cout<<"ѕрограму створив\n";
-    cout<<"“ел≥га јнтон ©";
+    cout<<"“ел≥га јнтон ©\n";
 }
 bool logic(double a,double b)
 {
@@ -19,35 +19,33 @@ bool logic(double a,double b)
 int main()
 {
     software(0);
-    cout<<"\n";
-    cout<<logic(22,-5);
-
-    cout << "“ел≥га јнтон \u00A9" << endl;
-    int x, y, z;
-    char a, b;
-
+    double n_x, n_y, n_z, n_S;
+    double a, b;
+    int x, y, z, S;
     cout << "¬вед≥ть x: ";
-    cin >> x;
+    cin >> n_x;
     cout << "¬вед≥ть y: ";
-    cin >> y;
+    cin >> n_y;
     cout << "¬вед≥ть z: ";
-    cin >> z;
+    cin >> n_z;
     cout << "¬вед≥ть a: ";
     cin >> a;
     cout << "¬вед≥ть b: ";
     cin >> b;
-
-    cout << "|a-22 56+57 = " << ((a - 22) || (56 + 57)) << endl;
-
-    cout << "x (дес€ткове) = " << x << endl;
-    cout << "x (ш≥стнадц€ткове) = " << hex << x << endl;
-    cout << "y (дес€ткове) = " << y << endl;
-    cout << "y (ш≥стнадц€ткове) = " << hex << y << endl;
-
-    double S = s_calculation(x, y, z);
-
+    n_S = s_calculation(n_x, n_y, n_z);
     cout << "S = " << S << endl;
-
+    x= n_x;
+    y= n_y;
+    z= n_z;
+    S= n_S;
+    cout<< "–езультат лог≥чного виразу:"<<logic(a,b)<< endl;
+    cout << "x (дес€ткове) = " << x << endl;
+    cout << "y (дес€ткове) = " << y << endl;
+    cout << "z (дес€ткове) = " << z << endl;
+    cout << "S (дес€ткове) = " << S << endl;
+    cout << "x (ш≥стнадц€ткове) = " << hex << x << endl;
+    cout << "y (ш≥стнадц€ткове) = " << hex << y << endl;
+    cout << "z (ш≥стнадц€ткове) = " << hex << z << endl;
+    cout << "S (ш≥стнадц€ткове) = " << hex << S;
     return 0;
-
 }

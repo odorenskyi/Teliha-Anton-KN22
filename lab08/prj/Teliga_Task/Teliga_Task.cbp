@@ -13,7 +13,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="../ModulesTeliga" />
 				</Compiler>
+				<Linker>
+					<Add library="../ModulesTeliga/bin/Debug/libModulesTeliga.a" />
+					<Add directory="../ModulesTeliga/bin/Debug" />
+				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/Teliga_Task" prefix_auto="1" extension_auto="1" />
@@ -22,9 +27,12 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="../ModulesTeliga" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add library="../ModulesTeliga/bin/Debug/libModulesTeliga.a" />
+					<Add directory="../ModulesTeliga/bin/Debug" />
 				</Linker>
 			</Target>
 		</Build>
