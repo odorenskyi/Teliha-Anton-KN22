@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1686672791 source:c:\Универ\БМТП\l-9\prj\main.cpp
+	<iostream>
+	<cmath>
+	<windows.h>
+
