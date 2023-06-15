@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1686860886 source:c:\Универ\БМТП\l-10\prj\123\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<ctime>
+	<bitset>
+	<windows.h>
+	"ModulesTeliga.h"
+
