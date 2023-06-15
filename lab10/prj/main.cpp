@@ -8,7 +8,7 @@
 
 using namespace std;
 
- char ch;
+
 
 int countCharacters(const string& text) {
     return text.length();
@@ -37,7 +37,7 @@ int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    std::string filePath = "C:\\Универ\\БМТП\\L-10\\prj\\input.txt";
+    std::string filePath = "C:\\Универ\\БМТП\\L-10\\prj\\prj\\input.txt";
 
     ifstream inputFile("input.txt");
     if (!inputFile.is_open()) {
@@ -46,10 +46,10 @@ int main() {
     }
     string inputText((istreambuf_iterator<char>(inputFile)), istreambuf_iterator<char>());
     inputFile.close();
-    string authorName = "Ім'я Прізвище";
-    string institution = "Установа/організація";
-    string city = "Місто";
-    string country = "Країна";
+    string authorName = "Теліга Антон";
+    string institution = "ЦНТУ";
+    string city = "Кропивницький";
+    string country = "Україна";
     string developmentYear = "2023";
     ofstream outputFile("output.txt");
     if (!outputFile) {
