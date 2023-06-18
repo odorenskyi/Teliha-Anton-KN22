@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1687114943 source:c:\Универ\БМТП\l-12\class\classlab12_teliga.cpp
+	"ClassLab12_Teliga.h"
+	<cmath>
+
+1687114943 c:\Универ\БМТП\l-12\class\classlab12_teliga.h
+
+1687115370 source:c:\Универ\БМТП\l-12\prj\main.123\main.cpp
+	"ClassLab12_Teliga.h"
+	<iostream>
+
